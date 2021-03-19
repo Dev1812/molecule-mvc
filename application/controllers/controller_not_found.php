@@ -15,10 +15,6 @@ class Controller_Not_Found extends Controller {
 
   public function action_index() {
     $data = array();
-    $param = array(
-      'css' => 'index.css',
-      'js' => 'index.js'
-    );
-    $this->view->generate('not_found_view.php', 'template_view.php', $param, $data, null);
+    $this->view->generate('not_found_view.php', 'template_view.php', null, $data, null);
   }
 }
