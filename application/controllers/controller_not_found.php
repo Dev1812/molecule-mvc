@@ -19,6 +19,6 @@ class Controller_Not_Found extends Controller {
       'css' => 'index.css',
       'js' => 'index.js'
     );
-    $this->view->generate('not_found_view.php', 'template_view.php', $param, $data, array());
+    $this->view->generate('not_found_view.php', 'template_view.php', $param, $data, null);
   }
 }
