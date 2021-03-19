@@ -15,15 +15,6 @@ return array(
 
 
 
-
-
-'form_description'=>'Здесь Вы сможете весело провести время',
-
-
-
-
-
-
 'form_send'=>'Отправить',
 
 'your_password'=>'Ваш пароль',

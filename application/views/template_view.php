@@ -8,7 +8,7 @@
 
 <head>
     <title><?php echo $page_title; ?></title>
-    <link rel="shortcut icon" href="/images/icons/ScreenBrush.ico?<?php echo time();?>" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/icons/favicon.ico?<?php echo time();?>" type="image/x-icon">
 
     <meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
     <meta name="title" content="<?php echo $page_title; ?>">
