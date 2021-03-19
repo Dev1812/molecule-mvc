@@ -50,15 +50,14 @@ if(!empty($param['css'])) {
 </head>
 <body>
 
-
   
-  <?php
-    if(isset($content_view) && !empty($content_view)) {
-      require_once SITE_ROOT.'application/views/'.$content_view;
-    } else {
-      echo '...';
-    }
-  ?>
+<?php
+  if(isset($content_view) && !empty($content_view)) {
+    require_once SITE_ROOT.'application/views/'.$content_view;
+  } else {
+    echo '...';
+  }
+?>
 
 <?php 
 
@@ -66,10 +65,10 @@ if(!empty($param['js'])) {
 
   if(is_array($param['js'])) {
     foreach($param['js'] as $v) {
-      echo '<script src="/js/'.$v.'?v='.rand().'" type="text/javascript">';
+      echo '<script src="/js/'.$v.'?v='.rand().'" type="text/javascript"></script>';
     }
   } else {
-    echo '<script src="/js/'.$param['js'].'?v='.rand().'" type="text/javascript">';
+    echo '<script src="/js/'.$param['js'].'?v='.rand().'" type="text/javascript"></script>';
   }
 }
 ?>
