@@ -66,10 +66,10 @@ if(!empty($param['js'])) {
 
   if(is_array($param['js'])) {
     foreach($param['js'] as $v) {
-      echo '<script src="/js/'.$v.'?v='.rand().'" type="text/js">';
+      echo '<script src="/js/'.$v.'?v='.rand().'" type="text/javascript">';
     }
   } else {
-    echo '<script src="/js/'.$param['js'].'?v='.rand().'" type="text/js">';
+    echo '<script src="/js/'.$param['js'].'?v='.rand().'" type="text/javascript">';
   }
 }
 ?>
