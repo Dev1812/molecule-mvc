@@ -1,1 +1,1 @@
-not_found_view
+404 not found
